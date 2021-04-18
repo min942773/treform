@@ -142,7 +142,7 @@ class GraphMLCreator:
             layout[node] = r*np.cos(th), r*np.sin(th)
         return layout
 
-    def plot_graph(self, title=None, file='graph.png'):
+    def plot_graph(self, title=None, file='graph.png', font_path='/content/NanumGothic.ttf'):
         from matplotlib.font_manager import _rebuild
         _rebuild()
 
